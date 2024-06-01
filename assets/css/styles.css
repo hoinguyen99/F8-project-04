@@ -322,6 +322,7 @@ a {
   justify-content: space-between;
 }
 .about__item {
+  cursor: pointer;
   display: flex;
   align-items: center;
 }
@@ -329,7 +330,7 @@ a {
   width: 20px;
   margin-right: 10px;
 }
-.about__heading-01{
+.about__heading-01 {
   color: #000958;
 }
 .about__desc-info {
