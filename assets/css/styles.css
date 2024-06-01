@@ -553,9 +553,12 @@ a {
 }
 .services__column-media {
     position: relative;
+    width: 447px;
     display: flex;
-    align-items: flex-end;
     justify-content: center;
+    align-items: end;
+    height: 621px;
+    margin: 0 auto;
 }
 .services__column2-bg {
     position: absolute;
@@ -567,4 +570,19 @@ a {
 .services__column2-img {
     width: 447px;
     position: absolute;
+}
+.services__cta{
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  margin-bottom: 100px;
+}
+.services__column2-btn {
+    min-width: 214px;
+    border: 1px solid rgba(255, 91, 46, 1);
+    --height: 56px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: rgba(255, 91, 46, 1);
+
 }
