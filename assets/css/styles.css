@@ -216,7 +216,7 @@ a {
   background: #c6e2fa;
 }
 .hero__content {
-  width: 517px;
+  width: 45%;
   margin-left: 30px;
   flex-shrink: 0;
 }
