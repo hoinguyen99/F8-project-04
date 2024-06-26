@@ -1065,6 +1065,7 @@ a {
 }
 /* footer__right */
 .footer__right {
+  position: relative;
   background: #ffffff;
   width: 60%;
   display: grid;
@@ -1086,4 +1087,13 @@ a {
 }
 .footer__column ul li:nth-child(1) {
   margin-top: 14px;
+}
+.copy__right {
+  position: absolute;
+  left: 22px;
+  bottom: 48px;
+  color: #656689;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.16; /* 116.667% */
 }

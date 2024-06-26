@@ -89,6 +89,21 @@
     />
     <!-- styles css -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-2FYJTXM8WF"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-2FYJTXM8WF");
+    </script>
   </head>
   <body style="height: 7000px">
     <!-- header -->
@@ -826,6 +841,7 @@
                 id=""
                 placeholder="enter your mail"
                 class="subscribe__input"
+                required
               />
               <button type="submit" class="submit__btn">
                 <svg
@@ -936,6 +952,7 @@
                 <li><a href="#!">Sunday: We are Closed </a></li>
               </ul>
             </div>
+            <p class="copy__right">Copyright & Design By Uihut</p>
           </div>
         </div>
       </div>
